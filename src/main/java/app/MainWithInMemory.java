@@ -12,8 +12,8 @@ import view.ViewManager;
 
 import javax.swing.JFrame;
 import javax.swing.WindowConstants;
-
-import java.awt.*;
+import javax.swing.JPanel;
+import java.awt.CardLayout;
 
 /**
  * The version of Main with an external database used to persist user data.
