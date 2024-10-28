@@ -9,7 +9,11 @@ import view.LoggedInView;
 import view.LoginView;
 import view.SignupView;
 import view.ViewManager;
-import javax.swing.*;
+
+import javax.swing.JFrame;
+import javax.swing.WindowConstants;
+
+import java.awt.*;
 
 /**
  * The version of Main with an external database used to persist user data.
@@ -22,7 +26,7 @@ public class MainWithInMemory {
      */
     public static void main(String[] args) {
         // Build the main program window, the main panel containing the
-        // various cards, and the layout, and stitch them together.
+        // various cards, and stitch them together.
 
         // The main application window.
         final JFrame application = new JFrame("Login Example");
