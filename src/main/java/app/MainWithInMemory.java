@@ -1,8 +1,8 @@
 package app;
 
 import javax.swing.JFrame;
-import javax.swing.WindowConstants;
 import javax.swing.JPanel;
+import javax.swing.WindowConstants;
 
 import java.awt.CardLayout;
 
